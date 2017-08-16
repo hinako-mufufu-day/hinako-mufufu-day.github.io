@@ -4,88 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script language="javascript">
-        function U(F, Coords, Width, Height) {
-            var Z = document.getElementById("MyZoom");
-
-            Z.src = F;
-            Z.style.display = '';
-            var C = Coords;
-
-            var Top = C.substr(C.indexOf(",") + 1, C.length);
-            var Right = Top.substr(Top.indexOf(",") + 1, Top.length);
-
-            var Left = C.substring(0, C.indexOf(","));
-            var Top = Top.substring(0, Top.indexOf(","));
-            var Right = Right.substring(0, Right.indexOf(","));
-            var Bottom = C.substr(C.lastIndexOf(",") + 1, C.length);
-
-            Z.style.left = Right;
-            Z.style.top = Bottom;
-            Z.style.width = Width;
-            Z.style.height = Height;
-            Z.style.opacity = '1';
-        }
-
-        function HidePopUp() {
-            var Z = document.getElementById("MyZoom");
-            Z.style.opacity = '0';
-            Z.style.width = 1;
-            Z.style.height = 1;
-        }
-
-    </script>
-    <title>みんなで作るむふふの日: Mosaic Viewer</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <style type="text/css">
-        body {
-            padding-top: 80px;
-        }
+    <style type="text/css">body{padding-top:80px}@media ( min-width: 768px ){#banner{min-height:300px;border-bottom:none}.bs-docs-section{margin-top:8em}.bs-component{position:relative}.bs-component .modal{position:relative;top:auto;right:auto;left:auto;bottom:auto;z-index:1;display:block}.bs-component .modal-dialog{width:90%}.bs-component .popover{position:relative;display:inline-block;width:220px;margin:20px}.nav-tabs{margin-bottom:15px}.progress{margin-bottom:10px}}    </style>
 
-        @media ( min-width: 768px ) {
-            #banner {
-                min-height: 300px;
-                border-bottom: none;
-            }
-
-            .bs-docs-section {
-                margin-top: 8em;
-            }
-
-            .bs-component {
-                position: relative;
-            }
-
-                .bs-component .modal {
-                    position: relative;
-                    top: auto;
-                    right: auto;
-                    left: auto;
-                    bottom: auto;
-                    z-index: 1;
-                    display: block;
-                }
-
-                .bs-component .modal-dialog {
-                    width: 90%;
-                }
-
-                .bs-component .popover {
-                    position: relative;
-                    display: inline-block;
-                    width: 220px;
-                    margin: 20px;
-                }
-
-            .nav-tabs {
-                margin-bottom: 15px;
-            }
-
-            .progress {
-                margin-bottom: 10px;
-            }
-        }
-    </style>
+    <title>みんなで作るむふふの日 | モザイクアートビューア</title>
+    <meta name="title" content="みんなで作るむふふの日 | モザイクアートビューア" />
+    <meta name="description" content="アイドルマスターシンデレラガールズのアイドルの一人、喜多日菜子を応援を目的とした企画サイトです。モザイクアートの詳細を確認できるビューア。" />
+    <meta name="keywords" content"喜多日菜子, 日菜子,ひなこ, アイドルマスター, シンデレラガールズ, モザイクアート" />
+    
+    <meta property="og:title" content="みんなで作るむふふの日 | モザイクアートビューア" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://hinako-mufufu-day.github.io/" />
+    <meta property="og:image" content="https://hinako-mufufu-day.github.io/assets/img/sample.png" />
+    <meta property="og:description" content="アイドルマスターシンデレラガールズのアイドルの一人、喜多日菜子を応援を目的とした企画サイトです。モザイクアートの詳細を確認できるビューア。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="みんなで作るむふふの日 | モザイクアートビューア" />
+    <meta name="twitter:description" content="アイドルマスターシンデレラガールズのアイドルの一人、喜多日菜子を応援を目的とした企画サイトです。モザイクアートの詳細を確認できるビューア。">
+    <meta name="twitter:image" content="httphttps://hinako-mufufu-day.github.io/assets/img/sample.png">
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

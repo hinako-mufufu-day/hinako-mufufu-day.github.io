@@ -6531,6 +6531,50 @@ a.badge:hover, a.badge:focus {
   }
 }
 
+
+
+.jumbotron-plain {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+.jumbotron-plain h1,
+.jumbotron-plain .h1 {
+  color: inherit;
+}
+.jumbotron-plain p {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 200;
+}
+.jumbotron-plain > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron-plain, .container-fluid .jumbotron-plain {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+.jumbotron-plain .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-plain {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron-plain, .container-fluid .jumbotron-plain {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-plain h1,
+  .jumbotron-plain .h1 {
+    font-size: 72px;
+  }
+}
+
+
 .thumbnail {
   display: block;
   padding: 4px;

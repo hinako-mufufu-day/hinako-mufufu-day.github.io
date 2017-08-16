@@ -24,7 +24,37 @@
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->    
+    <script language="javascript">
+        function U(F, Coords, Width, Height) {
+            var Z = document.getElementById("MyZoom");
+
+            Z.src = F;
+            Z.style.display = '';
+            var C = Coords;
+
+            var Top = C.substr(C.indexOf(",") + 1, C.length);
+            var Right = Top.substr(Top.indexOf(",") + 1, Top.length);
+
+            var Left = C.substring(0, C.indexOf(","));
+            var Top = Top.substring(0, Top.indexOf(","));
+            var Right = Right.substring(0, Right.indexOf(","));
+            var Bottom = C.substr(C.lastIndexOf(",") + 1, C.length);
+
+            Z.style.left = Right;
+            Z.style.top = Bottom;
+            Z.style.width = Width;
+            Z.style.height = Height;
+            Z.style.opacity = '1';
+        }
+
+        function HidePopUp() {
+            var Z = document.getElementById("MyZoom");
+            Z.style.opacity = '0';
+            Z.style.width = 1;
+            Z.style.height = 1;
+        }
+    </script>
     <script src="js/ganalyticscode.js"></script>
 </head>
 <body>
@@ -54,7 +84,8 @@
             <h1>モザイクアートビューア：[夢見るプリンセス]喜多日菜子+</h1>
             <div class="col-md-4 col-xs-8 col-sm-8">
                 <p>マウスオーバーでタイル画像が閲覧できます</p>
-                <img style="width: 300px; height: 225px; border: 1px solid black; display: none" id="MyZoom" src="" height="128" width="128" />
+                <p>※スマートフォンでは正しく閲覧できません</p>
+                <img style="width: 100%; height: 100%; border: 1px solid black; display: none" id="MyZoom"  />
             </div>
             <div class="col-md-8 col-xs-8 col-sm-8">
                 <img src="mufufu-tile.jpg" border=0 width=1000 usemap="#Map">

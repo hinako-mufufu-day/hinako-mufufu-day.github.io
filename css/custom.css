@@ -6,7 +6,9 @@
   width: 100%;
 
 }
-
+.top{
+  background-color: orange;
+}
 .top_menu{
   width: 100%;
   max-width:800px;

@@ -4,10 +4,13 @@
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   width: 100%;
-
 }
 .top{
   background-color: orange;
+}
+.top_logo{
+  width: 100%;
+
 }
 .top_menu{
   width: 100%;
@@ -15,6 +18,7 @@
   margin: 25px;  
   margin-right:auto;
   margin-left:auto;
+  padding:10px;
 }
 
 .main_content{

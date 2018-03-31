@@ -1,0 +1,5 @@
+# base 
+User-Agent: *
+Allow:sitemap.xml
+
+Sitemap: https://hinako-mufufu-day.github.io/sitemap.xml

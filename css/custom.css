@@ -25,3 +25,9 @@
 .main_content{
   margin-top:80px;
 }
+
+.tweet-share-div{
+  margin: 0 auto; 
+  width: 100%;
+  text-align: center;
+}

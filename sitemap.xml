@@ -5,7 +5,7 @@
 <url>
   <loc>https://hinako-mufufu-day.github.io/</loc>
   <priority>1.0</priority>
-  <lastmod>2018-04-07</lastmod>
+  <lastmod>2018-04-22</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
@@ -41,7 +41,7 @@
 <url>
   <loc>https://hinako-mufufu-day.github.io/link.html</loc>
   <priority>0.7</priority>
-  <lastmod>2018-04-07</lastmod>
+  <lastmod>2018-04-22</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
@@ -66,6 +66,18 @@
   <loc>https://hinako-mufufu-day.github.io/birthday2018/mosaic-viewer.html</loc>
   <priority>0.7</priority>
   <lastmod>2018-04-07</lastmod>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://hinako-mufufu-day.github.io/7th-cg-election/index.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2018-04-22</lastmod>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://hinako-mufufu-day.github.io/7th-cg-election/mosaic-viewer.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2018-04-22</lastmod>
   <changefreq>never</changefreq>
 </url>
 
